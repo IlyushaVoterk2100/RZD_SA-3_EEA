@@ -9,16 +9,21 @@
   height: 100px;
 } */
 
-body, .head {
+body, .head, footer {
   background-color: var(--color2);
 }
 
+footer {
+  height: 125px;
+}
 nav, .content {
   background-color: var(--color1);
 }
 
+
 .head {
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   height: 60px;
 }
 
@@ -46,7 +51,7 @@ nav, .content {
 }
 
 .video {
-  margin: 20px;
-  border-radius: 5%;
+  width: 100%;
+  margin: 15px
 }
 
